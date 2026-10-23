@@ -3,7 +3,7 @@ Iwashiime translation model notice
 Included components:
 - SMaLL-100 (alirezamsh/small100), https://huggingface.co/alirezamsh/small100
   License: MIT (declared in the model card; the repository ships no LICENSE file), text in licenses/small100-MIT.txt
-  Changes: vocabulary reduced to 22,000 pieces for 10 languages, embedding factorized to rank 768, weights retrained and quantized (3/4/6/8-bit) into Iwashiime's bundle format
+  Changes: vocabulary reduced to 23,045 pieces for 10 languages, embedding factorized to rank 768, weights retrained and quantized (3/4/6/8-bit) into Iwashiime's bundle format
 - ShaderGPT (lox9973), shader inference code
   License: MIT, text in licenses/ShaderGPT-MIT.txt
 - OpenCC dictionaries (via opencc-python-reimplemented), used for Simplified/Traditional Chinese conversion
@@ -11,6 +11,11 @@ Included components:
 
 Training data (used for training only, not included):
 - Tatoeba sentences (CC BY 2.0 FR), Common Voice sentence collector (CC0-1.0), Global Voices (CC BY 3.0)
+- Rosebleu dialogue sentences (Apache-2.0)
+- ITA Kansai-ben corpus, https://github.com/joumonsugi/ITA_KANSAI_CORPUS
+  Copyright (c) 2024 おふとんP, あみたろの声素材工房, Nacl_E
+  This corpus is released under the MIT License, text in licenses/ITA_KANSAI_CORPUS-MIT.txt
+- Japanese sentences written by Qwen/Qwen3-8B (Apache-2.0); person names taken from IPADIC (mecab-ipadic-2.7.0)
 - Translations of those sentences by tencent/Hy-MT2-7B (Apache-2.0)
 
 Distribution requirements:
