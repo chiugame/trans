@@ -1,5 +1,8 @@
 Iwashiime translation model notice
 
+Model license: Copyright (c) 2026 chiugame. The translation model file (model) is licensed under the MIT License, text in licenses/IwashiIME-translation-model-MIT.txt.
+The included components listed below keep their own copyright and license notices (the OpenCC dictionaries remain under the Apache License 2.0).
+
 Included components:
 - SMaLL-100 (alirezamsh/small100), https://huggingface.co/alirezamsh/small100
   License: MIT (declared in the model card; the repository ships no LICENSE file), text in licenses/small100-MIT.txt
